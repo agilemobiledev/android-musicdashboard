@@ -6,6 +6,12 @@ Authors: Christine Abernathy (caabernathy)
 
 ## Installing
 
+1. Set up a Facebook app using the App Dashboard:
+   1. Create a new [Facebook app](https://developers.facebook.com/apps)
+   1. Configure the Native Android App settings.
+        1. Enable the _Configured for Android SSO_ setting.
+        1. Enter you app's signature in the _Android Key Hash_ field. For more information see the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/#sig).
+
 1. Get the latest Facebook Android SDK from GitHub: git clone git://github.com/facebook/facebook-android-sdk.git
 
 1. Launch Eclipse
@@ -33,6 +39,17 @@ Authors: Christine Abernathy (caabernathy)
    1. Select com_facebook_android
    1. Click OK
    1. Click OK to exit the Properties dialog
+
+1. Set up your App ID:
+   1. From the Eclipse Package Explorer, select the MusicDashboard project
+   1. Open up App.java (under the src/com.facebook.samples.myapp folder)
+   1. Change the existing app ID:
+
+             public static final String APP_ID = "219647298162247";
+
+     to:
+
+             public static final String APP_ID = "YOUR_APP_ID";
 
 1. Install the Facebook app. Go to the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/#install) to find more instructions on this.
 

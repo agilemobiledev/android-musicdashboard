@@ -1,0 +1,59 @@
+# Music Dashboard Sample App
+
+Sample app for and Android app that works with music listens info.
+
+Authors: Christine Abernathy (caabernathy)
+
+## Installing
+
+1. Get the latest Facebook Android SDK from GitHub: git clone git://github.com/facebook/facebook-android-sdk.git
+
+1. Launch Eclipse
+
+1. Create a Facebook Android SDK Project:
+   1. From the Eclipse menu, navigate to File > New > Android Project
+   1. Select "Create project from existing source"
+   1. The Facebook Android SDK package should include a folder, facebook-android-sdk/facebook
+   1. Browse to the facebook folder and select it
+   1. Click Next
+   1. Select Android 2.2 as the Build Target
+   1. Click Finish
+
+1. Import the sample app:
+   1. From the Eclipse menu, navigate to File > Import
+   1. Select General > Existing Projects into Workspace
+   1. The sample package should include a folder, MusicDashboard
+   1. Browse to the MusicDashboard folder and select it
+   1. Click Finish
+
+1. Include the Facebook Android SDK:
+   1. From the Eclipse Package Explorer, select the MusicDashboard project
+   1. Right-click and select the Properties menu
+   1. In the Library section, click Add
+   1. Select com_facebook_android
+   1. Click OK
+   1. Click OK to exit the Properties dialog
+
+1. Install the Facebook app. Go to the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/#install) to find more instructions on this.
+
+1. Run the application as an Android Application. If you have any issues check out the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/).
+
+## Documentation
+
+## Additional Resources
+
+Facebook SDK for Android documentation can be found at https://developers.facebook.com/docs/mobile/android/build/
+
+## Contributing
+
+All contributors must agree to and sign the [Facebook CLA](https://developers.facebook.com/opensource/cla) prior to submitting Pull Requests. We cannot accept Pull Requests until this document is signed and submitted.
+
+## License
+
+Copyright 2012-present Facebook, Inc.
+
+You are hereby granted a non-exclusive, worldwide, royalty-free license to use, copy, modify, and distribute this software in source code or binary form for use in connection with the web services and APIs provided by Facebook.
+
+As with any software that integrates with the Facebook platform, your use of this software is subject to the Facebook Developer Principles and Policies [http://developers.facebook.com/policy/]. This copyright notice shall be included in all copies or substantial portions of the software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

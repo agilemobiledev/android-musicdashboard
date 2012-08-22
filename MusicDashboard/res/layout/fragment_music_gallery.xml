@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+         android:orientation="horizontal"
+        android:padding="6dip" >
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.2"
+            android:layout_marginRight="6dip"
+            android:contentDescription="@string/text_profile_picture" />
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textSize="12sp" />
+        <ImageButton
+            android:id="@+id/button_logout"
+            android:src="@drawable/logout_button"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:contentDescription="@string/text_buton_logout" />
+    </LinearLayout>
+    <View
+         android:layout_width="match_parent"
+         android:layout_height="1dip"
+         android:background="@color/grey" />
+    <GridView 
+        android:id="@+id/music_gallery_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:horizontalSpacing="@dimen/gridview_horizontal_spacing"
+        android:verticalSpacing="@dimen/gridview_vertical_spacing"
+        android:numColumns="@integer/gridview_num_columns"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_weight="1"  />
+</LinearLayout>

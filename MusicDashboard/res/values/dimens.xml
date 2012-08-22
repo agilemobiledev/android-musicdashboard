@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="gridview_horizontal_spacing">2dp</dimen>
+    <dimen name="gridview_vertical_spacing">2dp</dimen>
+
+</resources>
